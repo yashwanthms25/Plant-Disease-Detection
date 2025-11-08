@@ -19,7 +19,7 @@ It identifies plant diseases from leaf images and suggests possible treatments, 
 ---
 
 ## 🏗️ Project Structure
-
+```bash
 Plant-Disease-Detection/
 │
 ├── static/ # CSS, JS, and images for the web app
@@ -29,7 +29,7 @@ Plant-Disease-Detection/
 ├── app.py # Flask backend application
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
-
+```
 
 ---
 
@@ -52,24 +52,34 @@ pip install -r requirements.txt
 python app.py
 
 ```
-🧠 Model Details
-Algorithm: Convolutional Neural Network (CNN)
-Framework: TensorFlow / Keras
-Dataset: Publicly available plant disease datasets (PlantVillage, Kaggle, etc.)
-Input: Leaf image (.jpg / .png)
-Output: Predicted disease name + cure suggestion
+## 🧠 Model Details
 
-💻 Technologies Used
+- **Algorithm:** Convolutional Neural Network (CNN)  
+- **Framework:** TensorFlow / Keras  
+- **Dataset:** Publicly available plant disease datasets (PlantVillage, Kaggle, etc.)  
+- **Input:** Leaf image (.jpg / .png)  
+- **Output:** Predicted disease name + suggested cure  
 
-Python 3.9+
-Flask (Web framework)
-TensorFlow / Keras (Model training)
-OpenCV (Image preprocessing)
-NumPy, Pandas, Matplotlib
-HTML / CSS / JavaScript (Frontend)
+---
 
-📈 Future Improvements
-🌍 Deploy model using Streamlit or FastAPI
-☁️ Host on AWS / Render / Hugging Face Spaces
-📱 Build a mobile app interface
-🧾 Add voice-based disease query assistant
+## 💻 Technologies Used
+
+- **Python 3.9+**  
+- **Flask** – Web framework  
+- **TensorFlow / Keras** – Model training  
+- **OpenCV** – Image preprocessing  
+- **NumPy, Pandas, Matplotlib** – Data handling & visualization  
+- **HTML / CSS / JavaScript** – Frontend interface  
+
+---
+
+## 🔮 Future Improvements
+
+- 🚀 Deploy model using **Streamlit** or **FastAPI**  
+- ☁️ Host application on **AWS**, **Render**, or **Hugging Face Spaces**  
+- 📱 Build a **mobile app interface**  
+- 🧾 Add a **voice-based disease query assistant**
+
+
+
+
